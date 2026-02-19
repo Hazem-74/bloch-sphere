@@ -16,53 +16,6 @@ To run these Python scripts, you will need the following libraries installed:
 *   `qutip`
 *   `matplotlib`
 
-## Installation
-
-Follow these steps to set up the project on your local machine:
-
-1.  **Clone the Repository**:
-    Navigate to your desired directory in the terminal and clone Hazem-74's repository:
-    ```bash
-    git clone https://github.com/Hazem-74/Hazem-s-Bible.git
-    ```
-
-2.  **Navigate to the Project Directory**:
-    Change your current directory to the 'Bloch Sphere' project folder:
-    ```bash
-    cd Hazem-s-Bible/Bloch\ Sphere
-    ```
-    *(Note: The `\` is used to escape the space in "Bloch Sphere" for command-line compatibility.)*
-
-3.  **Install Dependencies**:
-    It is highly recommended to create and activate a virtual environment before installing dependencies to avoid conflicts with your system's Python packages:
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-    pip install numpy qutip matplotlib
-    ```
-
-## How to Run
-
-Once you have installed the requirements and navigated to the `Bloch Sphere` directory, you can run each script as follows:
-
-*   **To run `Bloch_Sphere.py` (Advanced Interactive Tool)**:
-    ```bash
-    python Bloch_Sphere.py
-    ```
-    This will open an interactive Matplotlib window featuring the Bloch sphere, sliders for parameter adjustment, and radio buttons to switch between input modes.
-
-*   **To run `Bloch_Sphere_simple.py` (Basic Static Visualization)**:
-    ```bash
-    python Bloch_Sphere_simple.py
-    ```
-    This will display a static Matplotlib window showing the Bloch sphere with a predefined qubit state. The window will close once you close it manually.
-
-*   **To run `Bloch_sphere_1.py` (Alternative Interactive Tool)**:
-    ```bash
-    python Bloch_sphere_1.py
-    ```
-    This will open an interactive Matplotlib window with the Bloch sphere, sliders for $\alpha$ and $\beta$ real parts, and text boxes for entering $\theta$ and $\phi$ values.
-
 ## Contributing
 
 Contributions, bug reports, and feature requests are welcome! Please feel free to open an issue or submit a pull request on the GitHub repository.
